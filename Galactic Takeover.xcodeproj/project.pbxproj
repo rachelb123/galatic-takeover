@@ -17,6 +17,7 @@
 		59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59704FA72334399500ADF0D3 /* LaunchScreen.storyboard */; };
 		59704FB42334399500ADF0D3 /* Galactic_TakeoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704FB32334399500ADF0D3 /* Galactic_TakeoverTests.swift */; };
 		59704FBF2334399600ADF0D3 /* Galactic_TakeoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704FBE2334399600ADF0D3 /* Galactic_TakeoverUITests.swift */; };
+		59704FCF23343B8F00ADF0D3 /* vision_doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59704FCE23343B8E00ADF0D3 /* vision_doc.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		59704FBA2334399600ADF0D3 /* Galactic TakeoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Galactic TakeoverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59704FBE2334399600ADF0D3 /* Galactic_TakeoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galactic_TakeoverUITests.swift; sourceTree = "<group>"; };
 		59704FC02334399600ADF0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59704FCD23343B3800ADF0D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		59704FCE23343B8E00ADF0D3 /* vision_doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vision_doc.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		59704F8C2334399400ADF0D3 = {
 			isa = PBXGroup;
 			children = (
+				59704FCC23343AFE00ADF0D3 /* Documents */,
 				59704F972334399400ADF0D3 /* Galactic Takeover */,
 				59704FB22334399500ADF0D3 /* Galactic TakeoverTests */,
 				59704FBD2334399600ADF0D3 /* Galactic TakeoverUITests */,
@@ -132,6 +136,15 @@
 				59704FC02334399600ADF0D3 /* Info.plist */,
 			);
 			path = "Galactic TakeoverUITests";
+			sourceTree = "<group>";
+		};
+		59704FCC23343AFE00ADF0D3 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				59704FCE23343B8E00ADF0D3 /* vision_doc.pdf */,
+				59704FCD23343B3800ADF0D3 /* README.md */,
+			);
+			path = Documents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 				59704FA42334399400ADF0D3 /* Main.storyboard in Resources */,
 				59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */,
 				59704FA62334399500ADF0D3 /* Assets.xcassets in Resources */,
+				59704FCF23343B8F00ADF0D3 /* vision_doc.pdf in Resources */,
 				59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */,
 				59704F9D2334399400ADF0D3 /* Actions.sks in Resources */,
 			);
