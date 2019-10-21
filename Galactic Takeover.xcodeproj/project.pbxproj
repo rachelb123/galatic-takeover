@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5923D7D5235D73C5002DE088 /* use_cases_uml.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */; };
 		59704F992334399400ADF0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704F982334399400ADF0D3 /* AppDelegate.swift */; };
 		59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59704F9A2334399400ADF0D3 /* GameScene.sks */; };
 		59704F9D2334399400ADF0D3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59704F9C2334399400ADF0D3 /* Actions.sks */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = use_cases_uml.pdf; sourceTree = "<group>"; };
 		59704F952334399400ADF0D3 /* Galactic Takeover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galactic Takeover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59704F982334399400ADF0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59704F9A2334399400ADF0D3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		59704FCC23343AFE00ADF0D3 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */,
 				59704FD6233EEC0D00ADF0D3 /* project_plan.pdf */,
 				59704FD2233EEAAF00ADF0D3 /* vision_doc.pdf */,
 				59704FCD23343B3800ADF0D3 /* README.md */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59704FA42334399400ADF0D3 /* Main.storyboard in Resources */,
+				5923D7D5235D73C5002DE088 /* use_cases_uml.pdf in Resources */,
 				59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */,
 				59704FA62334399500ADF0D3 /* Assets.xcassets in Resources */,
 				59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */,
