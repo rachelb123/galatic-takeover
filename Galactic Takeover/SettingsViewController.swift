@@ -14,9 +14,20 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        MuteMusic.addTarget(self, action: #selector(stateChanged), for: .valueChanged)
     }
     
-
+    @IBOutlet weak var MuteMusic: UISwitch!
+    
+    @objc func stateChanged(switchState: UISwitch) {
+        if MuteMusic.isOn {
+            MusicPlayer.shared.stopBackgroundMusic()
+        }
+        else{
+            MusicPlayer.shared.startBackgroundMusic()
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

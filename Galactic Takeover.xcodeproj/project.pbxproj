@@ -11,6 +11,8 @@
 		592AADCF2374E6F70081D43A /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADCE2374E6F70081D43A /* MainMenuViewController.swift */; };
 		592AADD12374EC380081D43A /* PlayNumberSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADD02374EC380081D43A /* PlayNumberSelectViewController.swift */; };
 		592AADD5237A06B30081D43A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADD4237A06B30081D43A /* SettingsViewController.swift */; };
+		592AADD9237A19F50081D43A /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADD8237A19F50081D43A /* MusicPlayer.swift */; };
+		592AADDB237A22770081D43A /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 592AADDA237A22760081D43A /* BackgroundMusic.mp3 */; };
 		59704F992334399400ADF0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704F982334399400ADF0D3 /* AppDelegate.swift */; };
 		59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59704F9A2334399400ADF0D3 /* GameScene.sks */; };
 		59704F9D2334399400ADF0D3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 59704F9C2334399400ADF0D3 /* Actions.sks */; };
@@ -50,6 +52,8 @@
 		592AADCE2374E6F70081D43A /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		592AADD02374EC380081D43A /* PlayNumberSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayNumberSelectViewController.swift; sourceTree = "<group>"; };
 		592AADD4237A06B30081D43A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		592AADD8237A19F50081D43A /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		592AADDA237A22760081D43A /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
 		59704F952334399400ADF0D3 /* Galactic Takeover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Galactic Takeover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59704F982334399400ADF0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59704F9A2334399400ADF0D3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 		59704F972334399400ADF0D3 /* Galactic Takeover */ = {
 			isa = PBXGroup;
 			children = (
+				592AADDA237A22760081D43A /* BackgroundMusic.mp3 */,
 				59704F982334399400ADF0D3 /* AppDelegate.swift */,
 				59704F9A2334399400ADF0D3 /* GameScene.sks */,
 				59704F9C2334399400ADF0D3 /* Actions.sks */,
@@ -135,6 +140,7 @@
 				59704FAA2334399500ADF0D3 /* Info.plist */,
 				592AADCE2374E6F70081D43A /* MainMenuViewController.swift */,
 				592AADD4237A06B30081D43A /* SettingsViewController.swift */,
+				592AADD8237A19F50081D43A /* MusicPlayer.swift */,
 			);
 			path = "Galactic Takeover";
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 				5923D7D5235D73C5002DE088 /* use_cases_uml.pdf in Resources */,
 				59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */,
 				59704FA62334399500ADF0D3 /* Assets.xcassets in Resources */,
+				592AADDB237A22770081D43A /* BackgroundMusic.mp3 in Resources */,
 				59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */,
 				59704FD7233EEC0D00ADF0D3 /* project_plan.pdf in Resources */,
 				59704FD3233EEAAF00ADF0D3 /* vision_doc.pdf in Resources */,
@@ -314,6 +321,7 @@
 				59704F9F2334399400ADF0D3 /* GameScene.swift in Sources */,
 				592AADD12374EC380081D43A /* PlayNumberSelectViewController.swift in Sources */,
 				59704FA12334399400ADF0D3 /* GameViewController.swift in Sources */,
+				592AADD9237A19F50081D43A /* MusicPlayer.swift in Sources */,
 				59704F992334399400ADF0D3 /* AppDelegate.swift in Sources */,
 				592AADD5237A06B30081D43A /* SettingsViewController.swift in Sources */,
 			);
