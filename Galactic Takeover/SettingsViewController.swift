@@ -1,28 +1,22 @@
 //
-//  MainMenuViewController.swift
+//  SettingsViewController.swift
 //  Galactic Takeover
 //
-//  Created by Rachel Bright on 11/7/19.
+//  Created by Rachel Bright on 11/11/19.
 //  Copyright © 2019 Rachel Bright. All rights reserved.
 //
 
 import UIKit
 
-class MainMenuViewController: UIViewController {
-    
+class SettingsViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func PlayGameButton(_ sender: Any) {
-        performSegue(withIdentifier: "MainMenuSegue", sender: self)
-    }
 
-    @IBAction func SettingsButton(_ sender: Any) {
-        performSegue(withIdentifier: "SettingsSegue", sender: self)
-    }
     /*
     // MARK: - Navigation
 

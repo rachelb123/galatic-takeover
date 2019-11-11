@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lJr-Rc-zgl">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -49,6 +49,7 @@
                                 <state key="normal" title="Button" image="6_players_btn"/>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="VVi-3z-lrY"/>
                     </view>
                     <navigationItem key="navigationItem" id="mBt-E6-vqU"/>
                 </viewController>
@@ -66,7 +67,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="spD-ne-Egr">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebW-Nb-qQf">
                                 <rect key="frame" x="99" y="346" width="217" height="102"/>
@@ -81,7 +82,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="settings_btn"/>
                                 <connections>
-                                    <segue destination="BNe-va-Iz8" kind="show" id="GkF-HT-9lE"/>
+                                    <action selector="SettingsButton:" destination="lJr-Rc-zgl" eventType="touchUpInside" id="ehD-bW-6wR"/>
+                                    <segue destination="BNe-va-Iz8" kind="show" identifier="SettingsSegue" id="GkF-HT-9lE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="89.855072463768124" y="-585.26785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="iX7-0W-c5Z">
             <objects>
-                <viewController id="BNe-va-Iz8" sceneMemberID="viewController">
+                <viewController id="BNe-va-Iz8" customClass="SettingsViewController" customModule="Galactic_Takeover" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xsE-Mf-qTm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask"/>
