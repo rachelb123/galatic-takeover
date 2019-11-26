@@ -28,6 +28,7 @@
 		59CEE448236A9CF100D3C6E7 /* test_cases.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */; };
 		59CEE44B236A9F4E00D3C6E7 /* user_manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */; };
 		59CEE44C236A9F4E00D3C6E7 /* test_plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */; };
+		E4BF4EF5238DC240001A0E69 /* SelChar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_cases.xlsx; sourceTree = "<group>"; };
 		59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_manual.pdf; sourceTree = "<group>"; };
 		59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test_plan.pdf; sourceTree = "<group>"; };
+		E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelChar_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				592AADCE2374E6F70081D43A /* MainMenuViewController.swift */,
 				592AADD4237A06B30081D43A /* SettingsViewController.swift */,
 				592AADD8237A19F50081D43A /* MusicPlayer.swift */,
+				E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */,
 			);
 			path = "Galactic Takeover";
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				592AADD9237A19F50081D43A /* MusicPlayer.swift in Sources */,
 				59704F992334399400ADF0D3 /* AppDelegate.swift in Sources */,
 				592AADD5237A06B30081D43A /* SettingsViewController.swift in Sources */,
+				E4BF4EF5238DC240001A0E69 /* SelChar_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,6 +32,9 @@
                                 <rect key="frame" x="127" y="249" width="160" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3P_btn" image="3_players_btn"/>
+                                <connections>
+                                    <segue destination="xJ4-8G-DYZ" kind="show" identifier="3P_Selected" id="rm4-KK-fMh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IN-Cw-3yf">
                                 <rect key="frame" x="127" y="329" width="160" height="72"/>
@@ -72,7 +75,7 @@
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebW-Nb-qQf">
                                 <rect key="frame" x="99" y="346" width="217" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="play_btn"/>
+                                <state key="normal" title="Play_Game" image="play_btn"/>
                                 <connections>
                                     <action selector="PlayGameButton:" destination="lJr-Rc-zgl" eventType="touchUpInside" id="MM4-WO-Jhh"/>
                                 </connections>
@@ -80,7 +83,7 @@
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEO-7U-5ya">
                                 <rect key="frame" x="99" y="456" width="217" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="settings_btn"/>
+                                <state key="normal" title="Settings" image="settings_btn"/>
                                 <connections>
                                     <action selector="SettingsButton:" destination="lJr-Rc-zgl" eventType="touchUpInside" id="ehD-bW-6wR"/>
                                     <segue destination="BNe-va-Iz8" kind="show" identifier="SettingsSegue" id="GkF-HT-9lE"/>
@@ -90,6 +93,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="iGl-YN-vxE"/>
                     </view>
+                    
                     <connections>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="MainMenuSegue" id="cop-V9-GYc"/>
                     </connections>
@@ -154,6 +158,209 @@
             </objects>
             <point key="canvasLocation" x="865.21739130434787" y="-231.02678571428569"/>
         </scene>
+        <!--Sel_Player_Screen-->
+        <scene sceneID="ACB-y2-N4Q">
+            <objects>
+                <viewController title="Sel_Player_Screen" id="xJ4-8G-DYZ" customClass="SelChar_ViewController" customModule="Galactic_Takeover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ikY-G3-yr3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Background_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="Ndg-2T-8ER">
+                                <rect key="frame" x="-55" y="-120" width="525" height="1083"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="title_select_char" translatesAutoresizingMaskIntoConstraints="NO" id="gdb-vL-Nxx">
+                                <rect key="frame" x="75" y="96" width="265" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OX-Yg-7nX">
+                                <rect key="frame" x="41" y="232" width="140" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Corgi" image="corgi"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMl-s8-Dgy">
+                                <rect key="frame" x="210" y="221" width="164" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cow" image="cow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L51-7K-Pnf">
+                                <rect key="frame" x="222" y="408" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dragon" image="dragon"/>
+                                <connections>
+                                    <segue destination="501-C9-CnS" kind="show" identifier="Dragon_selected" id="fmD-z2-oMF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IX2-gC-ifM">
+                                <rect key="frame" x="41" y="407" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Kitty" image="kitty"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouy-y4-fFy">
+                                <rect key="frame" x="41" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Robot" image="robot"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wox-Ku-2k7">
+                                <rect key="frame" x="222" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Penguin" image="penguin"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Aud-YX-Hgl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BUX-aa-Twy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LpQ-NC-0a0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1771.0144927536232" y="-937.5"/>
+        </scene>
+        <!--Sel_Player_Screen_2-->
+        <scene sceneID="hcF-Lg-d8C">
+            <objects>
+                <viewController title="Sel_Player_Screen_2" id="501-C9-CnS" customClass="SelChar_ViewController" customModule="Galactic_Takeover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7pP-Im-088">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Background_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="WOG-IN-Jud">
+                                <rect key="frame" x="-55" y="-120" width="525" height="1083"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="title_select_char" translatesAutoresizingMaskIntoConstraints="NO" id="chf-Fc-dlm">
+                                <rect key="frame" x="75" y="96" width="265" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QP-QT-axr">
+                                <rect key="frame" x="41" y="232" width="140" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Corgi" image="corgi"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxb-9a-DoY">
+                                <rect key="frame" x="210" y="221" width="164" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cow" image="cow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0I-Du-Buq">
+                                <rect key="frame" x="41" y="407" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Kitty" image="kitty"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWk-Ly-d6Y">
+                                <rect key="frame" x="41" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Robot" image="robot"/>
+                                <connections>
+                                    <segue destination="OEj-fR-P5C" kind="show" identifier="Robot_selected" id="vGy-F0-5ne"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-oG-epn">
+                                <rect key="frame" x="222" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Penguin" image="penguin"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tUq-qs-ZnQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cIv-zh-HHC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egq-z4-jI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2703" y="-938"/>
+        </scene>
+        <!--Sel_Player_Screen_3-->
+        <scene sceneID="vnu-I0-EJ6">
+            <objects>
+                <viewController title="Sel_Player_Screen_3" id="OEj-fR-P5C" customClass="SelChar_ViewController" customModule="Galactic_Takeover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dLz-Wx-d59">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Background_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="t8u-qF-WjV">
+                                <rect key="frame" x="-55" y="-120" width="525" height="1083"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="title_select_char" translatesAutoresizingMaskIntoConstraints="NO" id="Xfk-Sv-e06">
+                                <rect key="frame" x="75" y="96" width="265" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="995-qc-yCQ">
+                                <rect key="frame" x="41" y="232" width="140" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Corgi" image="corgi"/>
+                                <connections>
+                                    <segue destination="wIZ-11-hvo" kind="show" identifier="Corgi_selected" id="s1j-Hl-AYT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRU-VY-UNz">
+                                <rect key="frame" x="210" y="221" width="164" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cow" image="cow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hca-VR-oOP">
+                                <rect key="frame" x="41" y="407" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Kitty" image="kitty"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0Q-XU-jSo">
+                                <rect key="frame" x="222" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Penguin" image="penguin"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ANv-8Y-SmA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RTu-na-Zdm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bd-Bt-jYT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3575" y="-937"/>
+        </scene>
+        <!--Sel_Player_Screen_4-->
+        <scene sceneID="D2Z-rZ-NVt">
+            <objects>
+                <viewController title="Sel_Player_Screen_4" id="wIZ-11-hvo" customClass="SelChar_ViewController" customModule="Galactic_Takeover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wpf-hC-jqI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Background_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="IDA-Ce-Ots">
+                                <rect key="frame" x="-55" y="-120" width="525" height="1083"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="title_select_char" translatesAutoresizingMaskIntoConstraints="NO" id="j3U-uc-iyo">
+                                <rect key="frame" x="75" y="96" width="265" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zl6-zI-ETM">
+                                <rect key="frame" x="210" y="221" width="164" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cow" image="cow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhD-y2-aYU">
+                                <rect key="frame" x="41" y="407" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Kitty" image="kitty"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFT-iZ-r04">
+                                <rect key="frame" x="222" y="587" width="141" height="133"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Penguin" image="penguin"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="68k-FP-yYW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qU3-PZ-7SV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ChW-Pr-1Qy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4471" y="-938"/>
+        </scene>
     </scenes>
     <resources>
         <image name="2_players_btn" width="715" height="335"/>
@@ -163,8 +370,15 @@
         <image name="6_players_btn" width="715" height="335"/>
         <image name="Background_Screen" width="1125" height="2436"/>
         <image name="LaunchScreen" width="414" height="896"/>
+        <image name="corgi" width="792" height="793"/>
+        <image name="cow" width="792" height="792"/>
+        <image name="dragon" width="792" height="792"/>
+        <image name="kitty" width="792" height="793"/>
+        <image name="penguin" width="792" height="793"/>
         <image name="play_btn" width="715" height="335"/>
+        <image name="robot" width="792" height="792"/>
         <image name="settings_btn" width="715" height="335"/>
+        <image name="title_select_char" width="828" height="237"/>
         <image name="title_select_playNum" width="1122" height="237"/>
         <image name="title_settings" width="672" height="98"/>
     </resources>
