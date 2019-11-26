@@ -93,7 +93,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="iGl-YN-vxE"/>
                     </view>
-                    
                     <connections>
                         <segue destination="BV1-FR-VrT" kind="show" identifier="MainMenuSegue" id="cop-V9-GYc"/>
                     </connections>
@@ -361,6 +360,62 @@
             </objects>
             <point key="canvasLocation" x="4471" y="-938"/>
         </scene>
+        <!--Dragon_Playing-->
+        <scene sceneID="2s8-Kw-TC9">
+            <objects>
+                <viewController title="Dragon_Playing" id="gF2-2i-wjv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WLx-ew-l4X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43W-zR-TS3">
+                                <rect key="frame" x="71" y="619" width="270" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="roll_die_btn"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="icon_dragon" translatesAutoresizingMaskIntoConstraints="NO" id="wv5-D2-a9O">
+                                <rect key="frame" x="50" y="713" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Planet" translatesAutoresizingMaskIntoConstraints="NO" id="Agx-mB-I24">
+                                <rect key="frame" x="39" y="362" width="336" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="dragon" translatesAutoresizingMaskIntoConstraints="NO" id="JMf-hG-ODk">
+                                <rect key="frame" x="50" y="145" width="313" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQP-4F-htL">
+                                <rect key="frame" x="338" y="163" width="56" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Card_Icon_btn" image="card_icon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0h-Vv-kfR">
+                                <rect key="frame" x="340" y="16" width="63" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause" image="Pause"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="g5O-hs-2FV">
+                                <rect key="frame" x="230" y="787" width="40" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Map_background" translatesAutoresizingMaskIntoConstraints="NO" id="XxZ-ba-1CS">
+                                <rect key="frame" x="-42" y="-82" width="478" height="1035"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="lightening" translatesAutoresizingMaskIntoConstraints="NO" id="7xL-kx-kfS">
+                                <rect key="frame" x="327" y="787" width="27" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Y6Z-J3-A1L"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lhm-yB-9UC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5357.971014492754" y="-927.45535714285711"/>
+        </scene>
     </scenes>
     <resources>
         <image name="2_players_btn" width="715" height="335"/>
@@ -370,13 +425,21 @@
         <image name="6_players_btn" width="715" height="335"/>
         <image name="Background_Screen" width="1125" height="2436"/>
         <image name="LaunchScreen" width="414" height="896"/>
+        <image name="Map_background" width="1126" height="2436.5"/>
+        <image name="Pause" width="389.5" height="367"/>
+        <image name="Planet" width="1126" height="845.5"/>
+        <image name="card_icon" width="147" height="168.5"/>
         <image name="corgi" width="792" height="793"/>
         <image name="cow" width="792" height="792"/>
         <image name="dragon" width="792" height="792"/>
+        <image name="heart" width="252" height="216.5"/>
+        <image name="icon_dragon" width="792" height="792"/>
         <image name="kitty" width="792" height="793"/>
+        <image name="lightening" width="133" height="216.5"/>
         <image name="penguin" width="792" height="793"/>
         <image name="play_btn" width="715" height="335"/>
         <image name="robot" width="792" height="792"/>
+        <image name="roll_die_btn" width="788" height="216.5"/>
         <image name="settings_btn" width="715" height="335"/>
         <image name="title_select_char" width="828" height="237"/>
         <image name="title_select_playNum" width="1122" height="237"/>
