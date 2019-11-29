@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Main Menu View Controller
 class MainMenuViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -16,10 +17,12 @@ class MainMenuViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // Action for hitting play game button, moves to select number of players screen
     @IBAction func PlayGameButton(_ sender: Any) {
         performSegue(withIdentifier: "MainMenuSegue", sender: self)
     }
 
+    // Action for hitting the settings button, movings to settings screen
     @IBAction func SettingsButton(_ sender: Any) {
         performSegue(withIdentifier: "SettingsSegue", sender: self)
     }

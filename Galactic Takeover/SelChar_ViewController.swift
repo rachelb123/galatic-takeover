@@ -8,6 +8,7 @@
 
 import UIKit
 
+// Select Character View Controller
 class SelChar_ViewController: UIViewController {
 
     override func viewDidLoad() {

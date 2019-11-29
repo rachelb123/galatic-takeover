@@ -8,17 +8,21 @@
 
 import UIKit
 
+// Settings View Controller
 class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // Check mute switch state
         MuteMusic.addTarget(self, action: #selector(stateChanged), for: .valueChanged)
     }
     
+    // Initialize mute music switch
     @IBOutlet weak var MuteMusic: UISwitch!
     
+    // If the switch is on, music is muted. Otherwise, the music starts.
     @objc func stateChanged(switchState: UISwitch) {
         if MuteMusic.isOn {
             MusicPlayer.shared.stopBackgroundMusic()

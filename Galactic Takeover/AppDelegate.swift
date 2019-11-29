@@ -15,12 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // show launch screen for an additional second
         Thread.sleep(forTimeInterval: 1)
         // Override point for customization after application launch.
+        // begin background music
         MusicPlayer.shared.startBackgroundMusic()
         return true
     }
-
+    
+    // Auto generated functions, not utilized
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
