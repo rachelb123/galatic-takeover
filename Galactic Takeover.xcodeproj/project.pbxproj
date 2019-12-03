@@ -28,6 +28,7 @@
 		59CEE448236A9CF100D3C6E7 /* test_cases.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */; };
 		59CEE44B236A9F4E00D3C6E7 /* user_manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */; };
 		59CEE44C236A9F4E00D3C6E7 /* test_plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */; };
+		59F7F0B42395E60C003FDFD4 /* user_manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0B32395E60B003FDFD4 /* user_manual.pdf */; };
 		E4BF4EF5238DC240001A0E69 /* SelChar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_cases.xlsx; sourceTree = "<group>"; };
 		59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_manual.pdf; sourceTree = "<group>"; };
 		59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test_plan.pdf; sourceTree = "<group>"; };
+		59F7F0B32395E60B003FDFD4 /* user_manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_manual.pdf; sourceTree = "<group>"; };
 		E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelChar_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 		59704F972334399400ADF0D3 /* Galactic Takeover */ = {
 			isa = PBXGroup;
 			children = (
+				59F7F0B32395E60B003FDFD4 /* user_manual.pdf */,
 				592AADDA237A22760081D43A /* BackgroundMusic.mp3 */,
 				59704F982334399400ADF0D3 /* AppDelegate.swift */,
 				59704F9A2334399400ADF0D3 /* GameScene.sks */,
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F7F0B42395E60C003FDFD4 /* user_manual.pdf in Resources */,
 				59CEE44C236A9F4E00D3C6E7 /* test_plan.pdf in Resources */,
 				59CEE44B236A9F4E00D3C6E7 /* user_manual.pdf in Resources */,
 				59704FA42334399400ADF0D3 /* Main.storyboard in Resources */,

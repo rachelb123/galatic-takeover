@@ -139,6 +139,9 @@
                                 <rect key="frame" x="165" y="379" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="How To Play"/>
+                                <connections>
+                                    <action selector="openHowToPlayPDF:" destination="BNe-va-Iz8" eventType="touchUpInside" id="rwC-eM-7QG"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wpJ-MJ-H6x">
                                 <rect key="frame" x="238" y="203" width="49" height="31"/>
