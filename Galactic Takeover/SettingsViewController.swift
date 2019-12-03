@@ -43,7 +43,7 @@ class SettingsViewController: UIViewController {
         // Fit content in PDFView.
         pdfView.autoScales = true
         
-        // Load Sample.pdf file from app bundle.
+        // Load user_manual.pdf file from app bundle.
         let fileURL = Bundle.main.url(forResource: "user_manual", withExtension: "pdf")
         pdfView.document = PDFDocument(url: fileURL!)
     }
