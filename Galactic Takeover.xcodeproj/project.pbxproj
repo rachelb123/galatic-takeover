@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5923D7D5235D73C5002DE088 /* use_cases_uml.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */; };
 		592AADCF2374E6F70081D43A /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADCE2374E6F70081D43A /* MainMenuViewController.swift */; };
 		592AADD12374EC380081D43A /* PlayNumberSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADD02374EC380081D43A /* PlayNumberSelectViewController.swift */; };
 		592AADD5237A06B30081D43A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592AADD4237A06B30081D43A /* SettingsViewController.swift */; };
@@ -23,12 +22,11 @@
 		59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59704FA72334399500ADF0D3 /* LaunchScreen.storyboard */; };
 		59704FB42334399500ADF0D3 /* Galactic_TakeoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704FB32334399500ADF0D3 /* Galactic_TakeoverTests.swift */; };
 		59704FBF2334399600ADF0D3 /* Galactic_TakeoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59704FBE2334399600ADF0D3 /* Galactic_TakeoverUITests.swift */; };
-		59704FD3233EEAAF00ADF0D3 /* vision_doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59704FD2233EEAAF00ADF0D3 /* vision_doc.pdf */; };
-		59704FD7233EEC0D00ADF0D3 /* project_plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59704FD6233EEC0D00ADF0D3 /* project_plan.pdf */; };
-		59CEE448236A9CF100D3C6E7 /* test_cases.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */; };
 		59CEE44B236A9F4E00D3C6E7 /* user_manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */; };
-		59CEE44C236A9F4E00D3C6E7 /* test_plan.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */; };
-		59F7F0B42395E60C003FDFD4 /* user_manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0B32395E60B003FDFD4 /* user_manual.pdf */; };
+		59F7F0B6239701FE003FDFD4 /* project_plans.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0B5239701FE003FDFD4 /* project_plans.pdf */; };
+		59F7F0B82397020B003FDFD4 /* vision_docs.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0B72397020B003FDFD4 /* vision_docs.pdf */; };
+		59F7F0BA2397022F003FDFD4 /* test_plans.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0B92397022F003FDFD4 /* test_plans.pdf */; };
+		59F7F0BC23970239003FDFD4 /* use_case_uml.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59F7F0BB23970239003FDFD4 /* use_case_uml.pdf */; };
 		E4BF4EF5238DC240001A0E69 /* SelChar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = use_cases_uml.pdf; sourceTree = "<group>"; };
 		592AADCE2374E6F70081D43A /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		592AADD02374EC380081D43A /* PlayNumberSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayNumberSelectViewController.swift; sourceTree = "<group>"; };
 		592AADD4237A06B30081D43A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -73,12 +70,12 @@
 		59704FBE2334399600ADF0D3 /* Galactic_TakeoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galactic_TakeoverUITests.swift; sourceTree = "<group>"; };
 		59704FC02334399600ADF0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59704FCD23343B3800ADF0D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		59704FD2233EEAAF00ADF0D3 /* vision_doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vision_doc.pdf; sourceTree = "<group>"; };
-		59704FD6233EEC0D00ADF0D3 /* project_plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = project_plan.pdf; sourceTree = "<group>"; };
-		59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_cases.xlsx; sourceTree = "<group>"; };
 		59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_manual.pdf; sourceTree = "<group>"; };
-		59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test_plan.pdf; sourceTree = "<group>"; };
-		59F7F0B32395E60B003FDFD4 /* user_manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_manual.pdf; sourceTree = "<group>"; };
+		59F7F0B5239701FE003FDFD4 /* project_plans.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = project_plans.pdf; sourceTree = "<group>"; };
+		59F7F0B72397020B003FDFD4 /* vision_docs.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = vision_docs.pdf; sourceTree = "<group>"; };
+		59F7F0B92397022F003FDFD4 /* test_plans.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test_plans.pdf; sourceTree = "<group>"; };
+		59F7F0BB23970239003FDFD4 /* use_case_uml.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = use_case_uml.pdf; sourceTree = "<group>"; };
+		59F7F0BD23970294003FDFD4 /* test_case.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_case.xlsx; sourceTree = "<group>"; };
 		E4BF4EF4238DC240001A0E69 /* SelChar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelChar_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +128,6 @@
 		59704F972334399400ADF0D3 /* Galactic Takeover */ = {
 			isa = PBXGroup;
 			children = (
-				59F7F0B32395E60B003FDFD4 /* user_manual.pdf */,
 				592AADDA237A22760081D43A /* BackgroundMusic.mp3 */,
 				59704F982334399400ADF0D3 /* AppDelegate.swift */,
 				59704F9A2334399400ADF0D3 /* GameScene.sks */,
@@ -172,12 +168,12 @@
 		59704FCC23343AFE00ADF0D3 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				59CEE44A236A9F4E00D3C6E7 /* test_plan.pdf */,
+				59F7F0B72397020B003FDFD4 /* vision_docs.pdf */,
+				59F7F0B5239701FE003FDFD4 /* project_plans.pdf */,
+				59F7F0BB23970239003FDFD4 /* use_case_uml.pdf */,
+				59F7F0BD23970294003FDFD4 /* test_case.xlsx */,
+				59F7F0B92397022F003FDFD4 /* test_plans.pdf */,
 				59CEE449236A9F4E00D3C6E7 /* user_manual.pdf */,
-				59CEE447236A9CF100D3C6E7 /* test_cases.xlsx */,
-				5923D7D4235D73C5002DE088 /* use_cases_uml.pdf */,
-				59704FD6233EEC0D00ADF0D3 /* project_plan.pdf */,
-				59704FD2233EEAAF00ADF0D3 /* vision_doc.pdf */,
 				59704FCD23343B3800ADF0D3 /* README.md */,
 			);
 			path = Documents;
@@ -287,19 +283,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F7F0B42395E60C003FDFD4 /* user_manual.pdf in Resources */,
-				59CEE44C236A9F4E00D3C6E7 /* test_plan.pdf in Resources */,
+				59F7F0BA2397022F003FDFD4 /* test_plans.pdf in Resources */,
+				59F7F0B82397020B003FDFD4 /* vision_docs.pdf in Resources */,
 				59CEE44B236A9F4E00D3C6E7 /* user_manual.pdf in Resources */,
 				59704FA42334399400ADF0D3 /* Main.storyboard in Resources */,
-				5923D7D5235D73C5002DE088 /* use_cases_uml.pdf in Resources */,
+				59F7F0B6239701FE003FDFD4 /* project_plans.pdf in Resources */,
 				59704F9B2334399400ADF0D3 /* GameScene.sks in Resources */,
 				59704FA62334399500ADF0D3 /* Assets.xcassets in Resources */,
 				592AADDB237A22770081D43A /* BackgroundMusic.mp3 in Resources */,
 				59704FA92334399500ADF0D3 /* LaunchScreen.storyboard in Resources */,
-				59704FD7233EEC0D00ADF0D3 /* project_plan.pdf in Resources */,
-				59704FD3233EEAAF00ADF0D3 /* vision_doc.pdf in Resources */,
 				59704F9D2334399400ADF0D3 /* Actions.sks in Resources */,
-				59CEE448236A9CF100D3C6E7 /* test_cases.xlsx in Resources */,
+				59F7F0BC23970239003FDFD4 /* use_case_uml.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
